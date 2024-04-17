@@ -1,6 +1,6 @@
 //Maya ASCII 2023 scene
 //Name: sarah.ma
-//Last modified: Fri, Apr 12, 2024 11:38:06 PM
+//Last modified: Sat, Apr 13, 2024 04:23:35 PM
 //Codeset: UTF-8
 file -rdi 1 -ns "sarah" -dr 1 -rfn "sarahRN" -typ "OBJexport" "/Users/owynnarmstrong/Downloads/sarah.obj";
 file -r -ns "sarah" -dr 1 -rfn "sarahRN" -typ "OBJexport" "/Users/owynnarmstrong/Downloads/sarah.obj";
@@ -13,17 +13,17 @@ fileInfo "product" "Maya 2023";
 fileInfo "version" "2023";
 fileInfo "cutIdentifier" "202205052215-234554116d";
 fileInfo "osv" "Mac OS X 10.16";
-fileInfo "UUID" "CBA629FE-AE4A-7B43-5E3A-67BD22D5EDA6";
+fileInfo "UUID" "B443E6CB-7244-FEC3-5EA4-959B81C679F8";
 createNode transform -s -n "persp";
 	rename -uid "0E52B625-F147-9BD9-AF0F-65BA2745C3FC";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 0.50374343852048653 8.9834088213653533 50.035025073315595 ;
-	setAttr ".r" -type "double3" 3965.6616464102485 10440.200000004907 1.553014677055691e-17 ;
+	setAttr ".t" -type "double3" 2.9715608374562006 17.742461832335387 42.782867758760901 ;
+	setAttr ".r" -type "double3" 3951.2616464066514 10443.400000004805 9.956758988764842e-17 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "48278BDE-8245-0221-BA3F-F8B9394E895A";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999986;
-	setAttr ".coi" 49.558750728804036;
+	setAttr ".coi" 42.245762324629013;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
